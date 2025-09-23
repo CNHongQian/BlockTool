@@ -1,4 +1,3 @@
-```markdown
 # BlockTool 使用文档
 
 ## 简介
@@ -14,15 +13,17 @@ BlockTool 是一个专为 Minecraft 建筑文件设计的区块化处理工具�
 
 ## 系统要求
 
+- 可以忽略
 - Python 3.6 或更高版本
 - 依赖库：`tkinter`（通常已随 Python 安装）
 
 ## 安装方法
 
-1. 克隆或下载本仓库到本地：
-   ```bash
-   git clone https://github.com/CNHongQian/BlockTool.git
-   ```
+1. 下载可执行文件到本地：
+
+   - 前往 [GitHub Releases](https://github.com/CNHongQian/BlockTool/releases/latest) 页面
+   - 在最新版本中找到 `BlockTool-vx.x.x-x.exe` 的可执行文件
+   - 点击下载到本地
 
 2. 进入项目目录，直接运行可执行文件：
    ```bash
@@ -41,8 +42,8 @@ BlockTool 是一个专为 Minecraft 建筑文件设计的区块化处理工具�
 - **TP延迟数**：设置 TP 命令间隔（默认 100）
 - **添加底座方块**：为每个区块添加底座
   - **底座方块**：指定底座方块类型（如 `deny`）
-  - **Y偏移**：设置底座高度（输入 `z` 自动计算）
-  - **添加边界**：仅 16×16 区块可用，添加边界标记
+  - **Y偏移**：设置底座Y偏移高度（输入 `z` 自动计算）
+  - **添加边界**：仅 16×16 区块可用
 
 ### 处理流程
 
@@ -68,8 +69,7 @@ BlockTool 是一个专为 Minecraft 建筑文件设计的区块化处理工具�
 
 ## 注意事项
 
-- 确保输入文件未被其他工具优化过
-- 文件格式需为标准 `.txt` 文件
+- 文件格式需为标准 `.txt` 文件并且没有被Fill优化过
 - 建议使用前备份原始文件
 - 软件完全免费，感谢使用！
 
