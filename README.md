@@ -75,6 +75,9 @@ BlockTool 是一个专为 Minecraft 建筑文件设计的区块化处理工具�
 
 ## 更新日志
 
+### v1.1.8-Release
+- 支持拖入文件
+
 ### v1.1.7-Release
 - 支持32x32的边界添加
 
